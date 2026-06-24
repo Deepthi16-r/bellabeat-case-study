@@ -38,4 +38,21 @@ During the preparation phase, I evaluated the viability of the weightLogInfo_mer
 
 •**The Pivot**: I made the analytical choice to exclude weight metrics from the core baseline trends. Instead, I pivoted this lack of data into a strategic user-engagement finding regarding the friction of manual data entry for consumers.
 
+## 3. Data Processing & Tool Selection
+
+To transition from raw data to meaningful insights, the data had to be thoroughly processed, cleaned, and verified. This phase ensures that the data is accurate, formatted correctly, and completely free of errors before analysis.
+
+### Selection of Tools
+
+* **DB Browser for SQLite:** Chosen for the data processing phase. Because the FitBit dataset contains thousands of rows of tracking data across multiple spreadsheets, DB Browser provides a powerful local environment to aggregate, filter, and join these tables using SQL.
+* **Tableau:** Chosen for the data visualization phase to create an interactive, easy-to-read dashboard once the data was cleaned.
+
+### Data Cleaning & Processing Strategy
+Before running the final analysis, a strict cleaning checklist was established to maintain high data quality:
+
+* [x] **Format Verification:** Ensuring dates and times were formatted correctly so they could be properly linked across different tables.
+* [x] **Checking for Duplicates:** Running queries to find and remove any identical rows that could accidentally double-count user activity.
+* [x] **Handling Missing Data:** Identifying blank cells or incomplete rows to ensure they wouldn't skew the final averages.
+* [x] **Filtering Sample Sizes:** Verifying unique user IDs across tables, which led to the discovery of the 33-user activity vs. 24-user sleep split.
+
 
