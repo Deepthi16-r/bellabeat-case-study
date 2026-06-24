@@ -140,7 +140,7 @@ Based on the behavioral trends, user segmentation, and hidden frictions uncovere
 ### 📊 Project Dashboard Visual Consolidation
 The complete project dashboard is presented below in support of these findings, visually consolidating the relationships between our User Personas, daily movement, and sleep metrics.
 
-![Bellabeat Tableau Dashboard] <img width="636" height="837" alt="Screenshot 2026-06-24 115544" src="https://github.com/user-attachments/assets/469f74f3-9d1a-4bbb-a7e9-97172fd5f483" />
+<img width="636" height="837" alt="Screenshot 2026-06-24 115544" src="https://github.com/user-attachments/assets/469f74f3-9d1a-4bbb-a7e9-97172fd5f483" />
 
 
 ## 6. Conclusion & Project Reflection
