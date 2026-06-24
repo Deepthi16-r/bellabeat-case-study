@@ -76,7 +76,8 @@ To verify the query's success and document the relational output, the screenshot
 ### 📊 Consumer Segmentation: The 3 User Personas
 To look past basic overall averages, a deeper user segmentation analysis was executed by grouping the 33 unique tracker users into custom behavioral personas based on their average daily step counts:
 
-<img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/f97ca520-98b4-4f6d-8f6a-a14757f7b186" />
+<img width="1920" height="997" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/b903106a-b575-4d39-8428-c22bf9028460" />
+
 
 
 
@@ -98,7 +99,8 @@ To look past basic overall averages, a deeper user segmentation analysis was exe
 ---
 
 ### 🛌 The Bedtime Friction & Sleep Struggle
-![SQL Query Execution]
+<img width="1920" height="960" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/8f780d71-b479-4fbc-9d07-935e77cdfd86" />
+
 * **The Stat:** Users spend an average of **459 minutes in bed**, but only **419 minutes actually asleep**.
 * **The Story:** This reveals a consistent **39-minute gap** every single night. Users are sitting in bed awake—tossing and turning, reading, or scrolling on their phones—for nearly 40 minutes before falling asleep.
 * **The 27% Drop-Off:** As proven by the SQL JOIN query, **27% of users stop tracking their data entirely at night**. This points to a comfort barrier: more than a quarter of users choose to remove the device before going to sleep.
