@@ -55,4 +55,51 @@ Before running the final analysis, a strict cleaning checklist was established t
 * [x] **Handling Missing Data:** Identifying blank cells or incomplete rows to ensure they wouldn't skew the final averages.
 * [x] **Filtering Sample Sizes:** Verifying unique user IDs across tables, which led to the discovery of the 33-user activity vs. 24-user sleep split.
 
+## 4. Data Exploration & Analysis
+
+By analyzing the aggregated metrics across both datasets, a clear narrative emerged regarding how the typical consumer interacts with their fitness tracker. The data reveals that the average user is not an extreme fitness enthusiast, but rather an everyday individual balancing sedentary routines with pockets of activity.
+
+### 📊 SQL Query Execution & Verification
+To verify the query's success and document the relational output, the screenshot below captures the database execution environment. The query successfully reconciled the datasets, returning 24 distinct user rows in 24 milliseconds.
+
+![SQL Query Execution] (<img width="1920" height="965" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/84399e7c-4619-4432-b7e1-162917e8e665" />)
+
+
+---
+
+### 🛋️ The Sedentary Reality
+* **The Stat:** Users spend an overwhelming average of **991 minutes per day** completely sedentary.
+* **The Story:** That equates to roughly **16.5 hours** of non-active awake time. This is a massive baseline metric. It proves that the typical user spends the vast majority of their day sitting—likely at a desk job or during a commute—making sedentary behavior the dominant state of their lifestyle.
+
+---
+
+### 📊 Consumer Segmentation: The 3 User Personas
+To look past basic overall averages, a deeper user segmentation analysis was executed by grouping the 33 unique tracker users into custom behavioral personas based on their average daily step counts:
+
+![SQL Query Execution](<img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/205adeb6-a9c0-4be6-814f-4dea1b3b6e02" />)
+
+
+| Persona | % of Users | User Count | Behavioral Description |
+| :--- | :--- | :--- | :--- |
+| **Highly Active** | 21.2% | 7 / 33 | Consistently surpass the 10,000-step daily threshold. |
+| **Moderately Active** | 54.5% | 18 / 33 | Consistently log between 5,000 and 10,000 steps a day. This represents the absolute majority of Bellabeat's consumer base. |
+| **Sedentary Lifestyle** | 24.2% | 8 / 33 | Struggle significantly with movement, averaging fewer than 5,000 daily steps. |
+
+> 💡 **Business Takeaway:** An overwhelming **78.7%** of tracker users do not meet standard daily activity goals. This indicates that Bellabeat's primary target audience is not elite athletes or gym enthusiasts, but everyday women balancing busy schedules who require gentle accountability, behavioral nudges, and habit-building features rather than raw performance metrics.
+
+---
+
+### 👟 The Step Gap & Everyday Movement
+* **The Stat:** The average user logs **7,637 steps per day**, covering an average total distance of **5.4 kilometers** (approx. 3.3 miles).
+* **The Story:** The universally recognized benchmark for a highly active, healthy lifestyle is 10,000 steps. The data shows our consumer base falls short of this goal by roughly 24%.
+* **The "Everyday Active" Contrast:** Interestingly, users cover more than double the distance through casual, light daily movement (3.3 km) than they do through dedicated, high-intensity workouts or runs (1.5 km). This indicates that the user's activity is driven by daily chores, errands, and casual walking rather than intense gym sessions.
+
+---
+
+### 🛌 The Bedtime Friction & Sleep Struggle
+![SQL Query Execution](<img width="1920" height="960" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/eec26da5-e476-4ac3-bbac-465400e9f1b8" />
+)
+* **The Stat:** Users spend an average of **459 minutes in bed**, but only **419 minutes actually asleep**.
+* **The Story:** This reveals a consistent **39-minute gap** every single night. Users are sitting in bed awake—tossing and turning, reading, or scrolling on their phones—for nearly 40 minutes before falling asleep.
+* **The 27% Drop-Off:** As proven by the SQL JOIN query, **27% of users stop tracking their data entirely at night**. This points to a comfort barrier: more than a quarter of users choose to remove the device before going to sleep.
 
