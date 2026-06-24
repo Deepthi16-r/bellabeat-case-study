@@ -30,9 +30,12 @@ The analysis utilizes the public domain FitBit Fitness Tracker Data (stored on K
 ### Data Integrity & Auditing (The Detective Phase)
 While standard documentation suggests a sample size of 30 users, I initiated my analysis by checking data integrity. By applying an Advanced Filter in Excel to isolate unique identifiers, I discovered that the dataset actually tracks 33 unique user IDs across the activity sheets.
 ### Crucial Data Limitations & Strategic Scope
-During the preparation phase, I evaluated the viability of the weightLogInfo_merged dataset and uncovered a Sample Size Bias:
+During the preparation phase, I evaluated the viability of the weightLogInfo_merged dataset and uncovered a Sample Size Bias.
+
 •**Data Sparsity**: Out of the 33 unique users in the study, only 8 unique users actively recorded their weight.
+
 •**The Analyst Decision**: Because roughly 75% of the participants completely abandoned the weight tracking feature, using this data to form a definitive conclusion would create a massive statistical bias.
+
 •**The Pivot**: I made the analytical choice to exclude weight metrics from the core baseline trends. Instead, I pivoted this lack of data into a strategic user-engagement finding regarding the friction of manual data entry for consumers.
 
 
