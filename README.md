@@ -142,3 +142,17 @@ The complete project dashboard is presented below in support of these findings, 
 
 ![Bellabeat Tableau Dashboard] <img width="978" height="783" alt="Screenshot 2026-06-22 192019" src="https://github.com/user-attachments/assets/e2339680-d112-4694-bbfa-dc8f3bdc6fa3" />
 
+## 6. Conclusion & Project Reflection
+
+### 🏁 Final Project Summary
+This case study successfully demonstrates how data analytics can be used to uncover hidden user habits and guide business growth. By cleaning, analyzing, and visualizing the Bellabeat dataset, this project moved past generic fitness advice to identify specific areas where the product can improve. The data clearly shows that focusing on everyday movement, reducing bedtime friction, and improving nighttime comfort are Bellabeat’s biggest opportunities to better serve its core audience.
+
+### 🧠 Personal Key Takeaways & Upskilling Reflection
+Completing this capstone case study as the final milestone of my certification allowed me to apply technical data skills to a real-world business problem. Throughout this project, I successfully:
+
+* 🗂️ **Processed and Structured Data:** Handled data organization and cleaning to ensure accurate analysis.
+* 📊 **Built Interactive Visuals:** Used Tableau to design a unified dashboard that connects audience segmentation with daily user habits.
+* 📈 **Translated Data into Business Value:** Turned raw data trends into practical, actionable feature ideas for a real product ecosystem.
+
+This hands-on experience has greatly strengthened my ability to look at a business challenge, find the patterns hidden in the numbers, and present those findings in a clear, professional report.
+
