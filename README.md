@@ -76,7 +76,8 @@ To verify the query's success and document the relational output, the screenshot
 ### 📊 Consumer Segmentation: The 3 User Personas
 To look past basic overall averages, a deeper user segmentation analysis was executed by grouping the 33 unique tracker users into custom behavioral personas based on their average daily step counts:
 
-![SQL Query Execution] <img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/9ace8906-c59d-49f3-8f95-d52cbe637db5" />
+<img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/f97ca520-98b4-4f6d-8f6a-a14757f7b186" />
+
 
 
 | Persona | % of Users | User Count | Behavioral Description |
