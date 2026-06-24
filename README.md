@@ -2,7 +2,7 @@
 
 > **Role:** Operations Analyst  
 > **Tools Used:** Tableau, Microsoft Excel, Microsoft Word, DB Browser for SQLite
-> **Project Overview:** A deep-dive analysis of smart device consumer habits to identify trends in physical activity, user behavior personas, and sleep quality to drive strategic marketing recommendations.
+**Project Overview:** A deep-dive analysis of smart device consumer habits to identify trends in physical activity, user behavior personas, and sleep quality to drive strategic marketing recommendations.
 
 
 ---
