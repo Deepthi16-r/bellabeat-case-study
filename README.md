@@ -139,7 +139,9 @@ Based on the behavioral trends, user segmentation, and hidden frictions uncovere
 
 ### 📊 Project Dashboard Visual Consolidation
 The complete project dashboard is presented below in support of these findings, visually consolidating the relationships between our User Personas, daily movement, and sleep metrics.
-                   <img width="636" height="842" alt="Screenshot 2026-06-24 115942" src="https://github.com/user-attachments/assets/f9cb8fb8-9e5e-4741-aa2e-8bcb6424259b" />
+        <p align="center">
+        <img width="636" height="842" alt="Screenshot 2026-06-24 115942" src="https://github.com/user-attachments/assets/d3a0a3b4-f6dd-49ba-aced-e5c331861c64" />
+</p>
 
 
 
