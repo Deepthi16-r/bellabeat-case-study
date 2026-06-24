@@ -62,7 +62,7 @@ By analyzing the aggregated metrics across both datasets, a clear narrative emer
 ### 📊 SQL Query Execution & Verification
 To verify the query's success and document the relational output, the screenshot below captures the database execution environment. The query successfully reconciled the datasets, returning 24 distinct user rows in 24 milliseconds.
 
-![SQL Query Execution] (<img width="1920" height="965" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/84399e7c-4619-4432-b7e1-162917e8e665" />)
+![SQL Query Execution] <img width="1920" height="965" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/84399e7c-4619-4432-b7e1-162917e8e665" />
 
 
 ---
@@ -76,8 +76,7 @@ To verify the query's success and document the relational output, the screenshot
 ### 📊 Consumer Segmentation: The 3 User Personas
 To look past basic overall averages, a deeper user segmentation analysis was executed by grouping the 33 unique tracker users into custom behavioral personas based on their average daily step counts:
 
-![SQL Query Execution](<img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/205adeb6-a9c0-4be6-814f-4dea1b3b6e02" />)
-
+![SQL Query Execution]
 
 | Persona | % of Users | User Count | Behavioral Description |
 | :--- | :--- | :--- | :--- |
@@ -97,8 +96,7 @@ To look past basic overall averages, a deeper user segmentation analysis was exe
 ---
 
 ### 🛌 The Bedtime Friction & Sleep Struggle
-![SQL Query Execution](<img width="1920" height="960" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/eec26da5-e476-4ac3-bbac-465400e9f1b8" />
-)
+![SQL Query Execution]
 * **The Stat:** Users spend an average of **459 minutes in bed**, but only **419 minutes actually asleep**.
 * **The Story:** This reveals a consistent **39-minute gap** every single night. Users are sitting in bed awake—tossing and turning, reading, or scrolling on their phones—for nearly 40 minutes before falling asleep.
 * **The 27% Drop-Off:** As proven by the SQL JOIN query, **27% of users stop tracking their data entirely at night**. This points to a comfort barrier: more than a quarter of users choose to remove the device before going to sleep.
