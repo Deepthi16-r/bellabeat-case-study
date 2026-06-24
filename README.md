@@ -105,3 +105,40 @@ To look past basic overall averages, a deeper user segmentation analysis was exe
 * **The Story:** This reveals a consistent **39-minute gap** every single night. Users are sitting in bed awake—tossing and turning, reading, or scrolling on their phones—for nearly 40 minutes before falling asleep.
 * **The 27% Drop-Off:** As proven by the SQL JOIN query, **27% of users stop tracking their data entirely at night**. This points to a comfort barrier: more than a quarter of users choose to remove the device before going to sleep.
 
+## 5. Strategic Recommendations for Bellabeat
+
+Based on the behavioral trends, user segmentation, and hidden frictions uncovered in the data, Bellabeat has a massive opportunity to shift its product strategy. Because **78.7%** of the user base consists of everyday, moderately active or sedentary women, the marketing and app ecosystem should move away from high-intensity fitness metrics and focus on holistic, habit-forming lifestyle adjustments.
+
+### 1️⃣ Capitalize on the "Everyday Movement" Market
+* **The Insight:** Users cover more than double the distance through casual, light activity (3.3 km) than through high-intensity workouts (1.5 km).
+* **The Strategy:** Bellabeat should market its smart jewelry (like the Leaf or Time watches) as everyday lifestyle companions rather than hardcore sports trackers.
+* > 🚀 **App Feature Idea:** Introduce an **"Everyday Movement" Tracker** that rewards users for functional fitness—such as gardening, doing household chores, chasing kids, or taking the stairs—reassuring them that all movement counts toward their health goals.
+
+---
+
+### 2️⃣ Drive Engagement for "Moderately Active" Users
+* **The Insight:** 54.5% of users (the absolute majority) fall into the "Moderately Active" bucket, averaging between 5,000 and 10,000 steps. They are close to global health benchmarks but need an extra push.
+* **The Strategy:** Use behavioral psychology and smart notifications to close the 24% gap to the 10,000-step goal.
+* > 🚀 **App Feature Idea:** Implement dynamic smart-alerts. Instead of a generic *"Time to walk!"* notification, the Bellabeat app can send personalized, encouraging nudges based on real-time data, such as: *"You are only 1,500 steps away from your milestone today! A quick 15-minute evening stroll will lock it in."*
+
+---
+
+### 3️⃣ Address "Bedtime Friction" & De-escalate Phone Use
+* **The Insight:** Users experience a consistent 39-minute gap between getting into bed and falling asleep.
+* **The Strategy:** Position the Bellabeat app as a winding-down tool to combat revenge bedtime procrastination and late-night screen scrolling.
+* > 🚀 **App Feature Idea:** Create a **"Sleep Prep" Mode** that triggers 40 minutes before the user's target bedtime. The app can offer guided breathing exercises, ambient soundscapes, or short evening meditations explicitly designed to occupy the mind and reduce the time spent tossing and turning or scrolling.
+
+---
+
+### 4️⃣ Improve Hardware Comfort to Reduce Night-Time Drop-Off
+* **The Insight:** More than a quarter of users (27%) stop tracking their data entirely at night, suggesting the device becomes uncomfortable or intrusive during sleep.
+* **The Strategy:** Address the physical comfort barrier to ensure continuous, 24/7 data tracking.
+* > 💡 **Product Innovation:** Launch a dedicated **"Sleep-Safe" Accessories Line** featuring ultra-soft, breathable fabric straps, or market the clip-on versatility of the Bellabeat Leaf, encouraging users to clip the tracker onto loose sleepwear or pillows rather than wearing a rigid band on their wrist.
+
+---
+
+### 📊 Project Dashboard Visual Consolidation
+The complete project dashboard is presented below in support of these findings, visually consolidating the relationships between our User Personas, daily movement, and sleep metrics.
+
+![Bellabeat Tableau Dashboard] <img width="978" height="783" alt="Screenshot 2026-06-22 192019" src="https://github.com/user-attachments/assets/e2339680-d112-4694-bbfa-dc8f3bdc6fa3" />
+
